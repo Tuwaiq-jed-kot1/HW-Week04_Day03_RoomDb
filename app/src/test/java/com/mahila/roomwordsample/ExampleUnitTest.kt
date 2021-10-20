@@ -1,4 +1,4 @@
-package com.shady.room
+package com.mahila.roomwordsample
 
 import org.junit.Test
 
