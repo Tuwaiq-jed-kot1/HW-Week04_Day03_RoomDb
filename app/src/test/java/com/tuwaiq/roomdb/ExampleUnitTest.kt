@@ -1,4 +1,4 @@
-package com.shady.room
+package com.tuwaiq.roomdb
 
 import org.junit.Test
 
