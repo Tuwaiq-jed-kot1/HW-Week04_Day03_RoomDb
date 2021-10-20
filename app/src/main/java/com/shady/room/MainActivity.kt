@@ -2,6 +2,7 @@ package com.shady.room
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.tuwaiq.roomdb.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
