@@ -1,3 +1,12 @@
+import android.content.Context
+import androidx.lifecycle.Observer
+import androidx.room.Database
+import androidx.room.Room
+import androidx.room.RoomDatabase
+import com.shady.room.Word
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.launch
+
 @Database(entities = arrayOf(Word::class), version = 1, exportSchema = false)
 abstract class WordRoomDatabase : RoomDatabase() {
 
